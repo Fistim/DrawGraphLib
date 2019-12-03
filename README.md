@@ -33,16 +33,13 @@ To remove node you need to use method Remove()
 > graph.Remove(node);
 
 To compare 2 nodes there is methods Node.Compare(node1, node2) and CompareWith(nodeToCompare)
-> if (Node.Compare(node1, node2))
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Yes, they are equal!";
+> if (Node.Compare(node1, node2)) => return "Yes, they are equal!";
 
->if(node1.CompareWith(node2))
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Yes, they are equal!";
+>if(node1.CompareWith(node2)) => return "Yes, they are equal!";
 
 To check overlay of nodes there is method IsNodeOverlaid(node1, node2)
->if(IsNodeOverlaid(node1, node2))
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return "Sorry, they are overlaid";
->
+>if(IsNodeOverlaid(node1, node2)) => return "Sorry, they are overlaid";
+
 This method isn't equal to method Compare.
 
  

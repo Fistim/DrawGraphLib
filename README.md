@@ -12,6 +12,18 @@ To start using library you need to create graph:
 
 There are more than 10 overloads to easily implement graph, you can set Node and Edge arrays, graph name, direction of graph.
 
+## Settings
+
+This class represents the base settings of library where you can set:
+
+ - NodeWidth - width of ellipse you will draw at canvas
+ - NodeHeight - height of ellipse you will draw at canvas
+ - StrokeThickness - thickness of Line element to draw edge
+ - FontSize - default font size for labels at canvas
+ - CanvasWidth - you need to set it by yourself for proper work of library
+ - CanvasHeight - same as width
+ - FillColor - color that will be used to fill ellipses and stroke lines in GetLineProperties() and GetEllipseProperties()
+
 ## Node
 
 Node is the base element of graph where to implement it you need only coordinates and chosen name.

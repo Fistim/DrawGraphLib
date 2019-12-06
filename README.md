@@ -111,8 +111,11 @@ Also there are methods:
 
 To export graph there are couple of methods like:
 > ToPng(Canvas, path);
+
 > ToJpeg(Canvas, path);
+
 > Print(Canvas);
+
 > ToGraphML(Graph, path);
 
 ## Actions with graph

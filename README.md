@@ -23,7 +23,7 @@ This class represents the base settings of library where you can set:
  - CanvasWidth - you need to set it by yourself for proper work of library
  - CanvasHeight - same as width
  - FillColor - color that will be used to fill ellipses and stroke lines in GetLineProperties() and GetEllipseProperties()
- - MinDistance - minimal distance between source and target nodes of edge
+ - MaxDistance - minimal distance between source and target nodes of edge
 
 ## Node
 
